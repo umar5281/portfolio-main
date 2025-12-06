@@ -1,13 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-main/static/css/main.e8d6c0ed.css",
-    "main.js": "/portfolio-main/static/js/main.17137398.js",
+    "main.js": "/portfolio-main/static/js/main.ed467ec6.js",
     "static/media/recipeShare.PNG": "/portfolio-main/static/media/recipeShare.6a54d457dbce1fb881aa.PNG",
     "static/media/umarImg.png": "/portfolio-main/static/media/umarImg.afdd289589981ca62962.png",
     "static/media/youtube.png": "/portfolio-main/static/media/youtube.c86188d190011cd05b7b.png",
+    "static/media/resumeBuilder.PNG": "/portfolio-main/static/media/resumeBuilder.eb2edc2af5a57ddc96aa.PNG",
     "static/media/css.png": "/portfolio-main/static/media/css.40dd6ef93a310eb85ba8.png",
     "static/media/stylehubImage.PNG": "/portfolio-main/static/media/stylehubImage.dd12e10728b404a66d51.PNG",
     "static/media/ageCalculator.PNG": "/portfolio-main/static/media/ageCalculator.418815108fe08f2a1b06.PNG",
+    "static/media/shopMate.jpg": "/portfolio-main/static/media/shopMate.05045ea725d65c90fb2f.jpg",
     "static/media/Gomal.png": "/portfolio-main/static/media/Gomal.9c3fe0e307ee837851ff.png",
     "static/media/wordCounter.PNG": "/portfolio-main/static/media/wordCounter.37e8ba90b8eb86fb51a4.PNG",
     "static/media/randomPW.PNG": "/portfolio-main/static/media/randomPW.6ab69dbf43ab687cea90.PNG",
@@ -15,10 +17,10 @@
     "static/media/uos.jpg": "/portfolio-main/static/media/uos.9ce1dc5538be1d24d313.jpg",
     "index.html": "/portfolio-main/index.html",
     "main.e8d6c0ed.css.map": "/portfolio-main/static/css/main.e8d6c0ed.css.map",
-    "main.17137398.js.map": "/portfolio-main/static/js/main.17137398.js.map"
+    "main.ed467ec6.js.map": "/portfolio-main/static/js/main.ed467ec6.js.map"
   },
   "entrypoints": [
     "static/css/main.e8d6c0ed.css",
-    "static/js/main.17137398.js"
+    "static/js/main.ed467ec6.js"
   ]
 }
