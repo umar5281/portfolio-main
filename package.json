@@ -1,7 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-main",
   "version": "1.0.0",
-  "homepage": "https://umar5281.github.io/portfolio",
+  "homepage": "https://umar5281.github.io/portfolio-main",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",

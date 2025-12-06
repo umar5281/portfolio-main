@@ -173,7 +173,7 @@ const Navbar = () => {
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
             </NavLink>
-           <GithubButton
+            <GithubButton
               href={Bio.github}
               target="_Blank"
               style={{
@@ -184,8 +184,8 @@ const Navbar = () => {
               Github Profile
             </GithubButton>
 
-            {/* <GithubButton
-              href={process.env.PUBLIC_URL + "/Resume1.pdf"}
+            <GithubButton
+              href={process.env.PUBLIC_URL + "/Umar Riaz Resume updated.pdf"}
               target="_Blank"
               style={{
                 background: theme.primary,
@@ -193,22 +193,24 @@ const Navbar = () => {
               }}
             >
               Resume
-            </GithubButton> */}
-            </MobileMenu>
-            )}
+            </GithubButton>
+          </MobileMenu>
+        )}
 
-            <ButtonContainer>
-              <GithubButton href={Bio.github} target="_Blank">
-                Github Profile
-              </GithubButton>
-            </ButtonContainer>
+        <ButtonContainer>
+          <GithubButton href={Bio.github} target="_Blank">
+            Github Profile
+          </GithubButton>
+        </ButtonContainer>
 
-            {/* <ButtonContainer>
-              <GithubButton href={process.env.PUBLIC_URL + "/Resume1.pdf"} target="_Blank">
-                Resume
-              </GithubButton>
-            </ButtonContainer> */}
-
+        <ButtonContainer>
+          <GithubButton
+            href={process.env.PUBLIC_URL + "/Umar Riaz Resume updated.pdf"}
+            target="_Blank"
+          >
+            Resume
+          </GithubButton>
+        </ButtonContainer>
       </NavbarContainer>
     </Nav>
   );

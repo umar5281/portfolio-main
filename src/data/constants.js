@@ -8,6 +8,8 @@ import wordCounter from "../images/wordCounter.PNG";
 import ageCalculator from "../images/ageCalculator.PNG";
 import QRCode from "../images/QRCode.PNG";
 import randomPW from "../images/randomPW.PNG";
+import shopmate from "../images/shopMate.jpg";
+import resumeBuilder from "../images/resumeBuilder.PNG";
 import { Title } from "@mui/icons-material";
 import { image } from "framer-motion/client";
 
@@ -22,7 +24,7 @@ export const Bio = {
 
   github: "https://github.com/umar5281",
   resume: 
-    process.env.PUBLIC_URL + "/Umar-Riaz-Resume-updated.pdf",
+    process.env.PUBLIC_URL + "/resume.pdf",
   linkedin: "https://www.linkedin.com/in/umar9297",
   insta: "https://www.instagram.com/umar.ch_001/",
   facebook: "https://www.facebook.com/umar.ch.240288/",
@@ -196,7 +198,7 @@ export const projects = [
     "YouTube Data API v3"
   ],
     category: "web app",
-    webapp: "",
+    webapp: "https://youtube-clone1000.netlify.app/",
   },
   {
      id: 2,
@@ -219,7 +221,26 @@ export const projects = [
   },
   {
      id: 3,
-    title: "Recipe Share Web App",
+    title: "ShpeMate E-commerce(Mern-Stack)",
+    description:
+      "ShpeMate is a full-featured eCommerce web application built on the MERN stack (MongoDB, Express.js, React.js, Node.js) that provides a seamless online shopping experience. Users can browse a wide variety of products, view detailed product information, add items to their cart, and securely checkout. The platform features user authentication, profile management, and order history tracking. Admins have a dedicated dashboard to manage products, categories, and orders efficiently. With responsive design, fast performance, and smooth UI interactions, ShpeMate ensures an engaging shopping experience on both desktop and mobile devices. The project demonstrates practical implementation of RESTful APIs, dynamic data handling, and state management with React. Overall, ShpeMate serves as a scalable, real-world solution for modern online retail businesses.",
+    image:shopmate,
+    tags: [
+       "Javascript Es6",
+    "React.JS",
+    "Express Js",
+    "MongoDB",
+    "Tailwind CSS",
+    "React Router",
+
+
+  ],
+  category: "web app",
+    webapp: "https://shpemate-ecoomerce-web-app.netlify.app/",
+  },
+  {
+     id: 4,
+    title: "Recipe Share Web App (Mern-Stack)",
     description:
       "The Recipe Share web application is a full-stack platform that allows users to discover, create, and share their favorite recipes in an interactive way. Built with modern technologies like React.js, Node.js, Express.js, and MongoDB, it provides a smooth and responsive user experience. Users can create accounts, log in securely, and manage their personal recipe collections. The app features detailed recipe pages with ingredients, instructions, images, and user feedback. An intuitive search and filter system helps users quickly find recipes based on their preferences. Performance optimization and clean API architecture ensure fast loading and reliable data handling. Overall, the Recipe Share app is designed as a practical, real-world solution for cooking enthusiasts and food lovers.",
     image:recipeshare,
@@ -237,9 +258,28 @@ export const projects = [
   ],
    category: "web app",
     webapp: "https://github.com/umar5281/Recipe-Share-web-app-Mern-stack-project.git"
-  },  
+  },
+  {
+    id: 5,
+    title: "Resume Builder Web App",
+    description:
+      "I developed a Resume Builder web application using React.js that enables users to create professional resumes interactively. The app allows users to input personal details, education, work experience, skills, and achievements, with a real-time preview of the resume. Users can customize sections and styling, and generate a downloadable PDF version of their resume. The project leverages React components, state management, and form handling to create a dynamic and responsive user experience. It also demonstrates effective use of props, conditional rendering, and component reusability. This project enhanced my skills in React development, UI/UX design, and front-end application architecture.",
+    image:resumeBuilder,
+    tags: [
+      "HTML",
+      "CSS",
+      "Javascript Es6",
+    "React.JS",
+    "Tailwind CSS",
+    "React Router",
+    "Lucide Icons",
+
+  ],
+   category: "web app",
+    webapp: "https://resume-builder-l8y7.vercel.app/"
+  } , 
    {
-    id: 4,
+    id: 6,
     title: "Age Calculator",
     description:
       "I developed a simple and interactive Age Calculator using HTML, CSS, and JavaScript that allows users to input their date of birth and instantly calculate their exact age. The application features a clean, responsive interface and uses JavaScript date functions to accurately determine the age in years, months, and days. This project strengthened my understanding of DOM manipulation, user input handling, and basic logic implementation in JavaScript.",
@@ -253,17 +293,9 @@ export const projects = [
   category: "web app",
     webapp: "https://age-calculator-xi-eosin.vercel.app/",
    },
-  {
-    id: 5,
-    title: "Coffee Shop",
-    description:
-    " Brewly Café offers a warm and inviting digital space where coffee lovers can explore artisanal blends, brewing tips, and signature recipes—from rich espressos and creamy lattes to exotic cold brews. With an elegant design built in HTML, CSS, and JavaScript, the site serves as both a sensory escape and a convenient guide, inspiring visitors to discover new flavors and enjoy the artistry of coffee culture from the comfort of their homes",
-    image:css,
-    tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
   
-  },
   {
-     id: 6,
+     id: 8,
     title: "Word and Character Counter",
     description:
     "I created a Word and Character Counter using HTML, CSS, and JavaScript that instantly counts the number of words and characters as the user types. The interface is clean and responsive, providing real-time feedback with accurate counting logic. This project helped me strengthen my skills in DOM manipulation, event handling, and string processing in JavaScript.",
@@ -274,7 +306,7 @@ export const projects = [
     
   },
   {
-    id: 7,
+    id: 9,
     title: "QR Code Generator",
     description:
     "I built a QR Code Generator using HTML, CSS, and JavaScript that allows users to enter any text or URL and instantly generate a scannable QR code. The application features a simple, user-friendly interface with fast, accurate code generation. This project enhanced my understanding of API integration, user input handling, and dynamic content rendering in JavaScript.",
@@ -284,7 +316,7 @@ export const projects = [
     webapp: "https://qr-code-generator-pi-woad.vercel.app/",
   },
   {
-    id: 8,
+    id: 10,
     title: "Random Password Generator",
     description:
     "I developed a Random Password Generator using HTML, CSS, and JavaScript that creates strong and secure passwords based on user-selected criteria. The application allows users to choose password length and include options like uppercase, lowercase, numbers, and symbols. This project helped me enhance my skills in DOM manipulation, logic implementation, and generating dynamic content with JavaScript.",
