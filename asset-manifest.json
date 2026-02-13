@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-main/static/css/main.e8d6c0ed.css",
-    "main.js": "/portfolio-main/static/js/main.b02737e2.js",
+    "main.js": "/portfolio-main/static/js/main.19ab15bf.js",
     "static/media/recipeShare.PNG": "/portfolio-main/static/media/recipeShare.6a54d457dbce1fb881aa.PNG",
     "static/media/umarImg.png": "/portfolio-main/static/media/umarImg.afdd289589981ca62962.png",
     "static/media/AIAutomate.png": "/portfolio-main/static/media/AIAutomate.af80df1e729185eeeb03.png",
@@ -9,17 +9,17 @@
     "static/media/CompainSystem.png": "/portfolio-main/static/media/CompainSystem.88e552fd8c6e855b3c7f.png",
     "static/media/shopMate.PNG": "/portfolio-main/static/media/shopMate.764ce86f12a53a969def.PNG",
     "static/media/resumeBuilder.PNG": "/portfolio-main/static/media/resumeBuilder.eb2edc2af5a57ddc96aa.PNG",
+    "static/media/echo.PNG": "/portfolio-main/static/media/echo.d35497e060218d03ae0a.PNG",
     "static/media/stylehubImage.png": "/portfolio-main/static/media/stylehubImage.01c4e905ad24e8f73276.png",
     "static/media/Gomal.png": "/portfolio-main/static/media/Gomal.9c3fe0e307ee837851ff.png",
     "static/media/randomPW.PNG": "/portfolio-main/static/media/randomPW.6ab69dbf43ab687cea90.PNG",
-    "static/media/QRCode.PNG": "/portfolio-main/static/media/QRCode.953be5aaa771a1a72d4f.PNG",
     "static/media/uos.jpg": "/portfolio-main/static/media/uos.9ce1dc5538be1d24d313.jpg",
     "index.html": "/portfolio-main/index.html",
     "main.e8d6c0ed.css.map": "/portfolio-main/static/css/main.e8d6c0ed.css.map",
-    "main.b02737e2.js.map": "/portfolio-main/static/js/main.b02737e2.js.map"
+    "main.19ab15bf.js.map": "/portfolio-main/static/js/main.19ab15bf.js.map"
   },
   "entrypoints": [
     "static/css/main.e8d6c0ed.css",
-    "static/js/main.b02737e2.js"
+    "static/js/main.19ab15bf.js"
   ]
 }
